@@ -1,7 +1,7 @@
 # Assignment 6 Part 1 - Writeup
 
-**Name:** _______________  
-**Date:** _______________
+**Name:** Aaron Mata  
+**Date:** 11/19/2025
 
 ---
 
@@ -10,7 +10,7 @@
 ### Question 1: R² Score Interpretation
 What does the R² score tell you about your model? What does it mean if R² is close to 1? What if it's close to 0?
 
-**YOUR ANSWER:**
+The R² tells me how fit is the line of best fit for a scattered plot. If it is close to 1, it means the relationship between the line of best fit and the dots on the scattered plot is really strong. If R² is close to 0, it means that the relationship between the line of best fi and the dots on the scattered plot is not strong, and most likely does not show the relationship between x and y on a graph, in short, not reliable to use as data.
 
 
 

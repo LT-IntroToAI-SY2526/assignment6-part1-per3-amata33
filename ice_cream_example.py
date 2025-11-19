@@ -47,12 +47,12 @@ def create_scatter_plot(data):
         data: pandas DataFrame with Temperature and Sales columns
     """
     plt.figure(figsize=(10, 6))
-    plt.scatter(data['Temperature'], data['Sales'], color='blue', alpha=0.6)
-    plt.xlabel('Temperature (°F)', fontsize=12)
-    plt.ylabel('Ice Cream Sales ($)', fontsize=12)
-    plt.title('Ice Cream Sales vs Temperature', fontsize=14, fontweight='bold')
-    plt.grid(True, alpha=0.3)
-    plt.savefig('ice_cream_scatter.png', dpi=300, bbox_inches='tight')
+    plt.scatter(data['Temperature'], data['Sales'], color='blue', alpha=0.6) # x value, y value
+    plt.xlabel('Temp cuh (°F)', fontsize=12) 
+    plt.ylabel('Ic sales ($)', fontsize=12)
+    plt.title('I forgot who I married I have alzheimers', fontsize=14, fontweight='bold')
+    plt.grid(True, alpha=0.3) #grid inside of the graph
+    plt.savefig('ice_cream_scatter.png', dpi=300, bbox_inches='tight') #save as a png file
     print("\n✓ Scatter plot saved as 'ice_cream_scatter.png'")
     plt.show()
 
@@ -170,7 +170,7 @@ def visualize_results(X_train, y_train, X_test, y_test, predictions, model):
     
     plt.xlabel('Temperature (°F)', fontsize=12)
     plt.ylabel('Ice Cream Sales ($)', fontsize=12)
-    plt.title('Linear Regression: Ice Cream Sales Prediction', fontsize=14, fontweight='bold')
+    plt.title('Linear Regression: ic sales pred', fontsize=14, fontweight='bold')
     plt.legend()
     plt.grid(True, alpha=0.3)
     plt.savefig('ice_cream_predictions.png', dpi=300, bbox_inches='tight')
