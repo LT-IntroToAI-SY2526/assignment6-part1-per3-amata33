@@ -15,6 +15,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import numpy as np
 
 
+
 def load_and_explore_data(filename):
     """
     Load the student scores data and explore it
