@@ -30,7 +30,7 @@ def load_and_explore_data(filename):
     data = pd.read_csv(filename)
     # TODO: Print the first 5 rows
     print("=== Student Scores Data ===")
-    print(f"\nFirst 5 rows:"):
+    print(f"\nFirst 5 rows:")
     print(data.head())
     # TODO: Print the shape of the dataset (number of rows and columns)
     print(f"\nDataset shape: {data.shape[0]} rows, {data.shape[1]} columns")
